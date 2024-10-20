@@ -22,6 +22,16 @@
 
 <img width="407" alt="Screenshot 2024-10-20 214343" src="https://github.com/user-attachments/assets/5fb00717-4ed9-41fb-ac6f-383478c6dc23"><br>
 **Go to aws account and open S3 bucket you can see the bucket created automatically this happens because it can pull credentials from these secure sources: AWS CLI, environment variables, IAM roles, or AWS profiles.** <br>
-<img width="1095" alt="Screenshot 2024-10-20 214414" src="https://github.com/user-attachments/assets/e81733b4-46db-4959-bba0-c1d522287607">
-<img width="683" alt="Screenshot 2024-10-20 215140" src="https://github.com/user-attachments/assets/3caab834-3fe9-459c-b657-54d035eecf7f">
-<img width="652" alt="Screenshot 2024-10-20 215158" src="https://github.com/user-attachments/assets/387c8dee-1716-41f7-add8-3302fff33c91">
+<img width="746" alt="Screenshot 2024-10-20 221430" src="https://github.com/user-attachments/assets/ba344dfd-22f3-4f16-9319-c0d5cdbd4ce3"><br>
+**Click on the S3 bucket**<br>
+**Go to properties**<br>
+<img width="725" alt="Screenshot 2024-10-20 221501" src="https://github.com/user-attachments/assets/c0cca226-b691-48ed-a164-0ff5a2e1842f"><br>
+**Scroll down static website hosting**<br>
+<img width="682" alt="Screenshot 2024-10-20 221526" src="https://github.com/user-attachments/assets/db87ba42-b567-4455-a31f-c45e073b10f7"><br>
+**Open the website in new page**<br>
+<img width="1095" alt="Screenshot 2024-10-20 214414" src="https://github.com/user-attachments/assets/e81733b4-46db-4959-bba0-c1d522287607"><br>
+**After checking the website destroy the S3 bucket**<br>
+**terraform destroy**<br>
+<img width="683" alt="Screenshot 2024-10-20 215140" src="https://github.com/user-attachments/assets/3caab834-3fe9-459c-b657-54d035eecf7f"><br>
+<img width="652" alt="Screenshot 2024-10-20 215158" src="https://github.com/user-attachments/assets/387c8dee-1716-41f7-add8-3302fff33c91"><br>
+# You have succesfully created S3 bucket and hosted a static website using terraform.
